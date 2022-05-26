@@ -7,6 +7,10 @@
 	text-decoration: none;
 }
 
+.pic {
+	border-radius: 30px;
+}
+
 .max-width{
 	max-width: 1300px;
 	padding: 0 80px;
@@ -51,4 +55,95 @@
 	font-size: 18px;
 	font-weight: 500;
 	margin-left: 25px;
+}
+
+.top_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+
+.vid1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 2%;
+	width: 30%;
+	background: #00274c;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.pic1{
+	width: 30%;
+	position: relative;
+}
+
+.information{
+	width: 30%;
+	font-family: 'Poppins', sans-serif;
+	color: #00274c;
+	width: 28%;
+	margin-right: 20px;
+	text-align: justify;
+	position: relative;
+	right: 2%;
+}
+
+.text{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.mid_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.code1 {
+	width: 18%;
+	position: relative;
+	left: 2%;
+}
+
+.code2 {
+	width: 38%;
+	position: relative;
+}
+
+.code3 {
+	width: 38%;
+	position: relative;
+	right: 2%;
+}
+
+.bottom_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;
+}
+
+.code4 {
+	width: 20%;
+	position: relative;
+	left: 2%;
+}
+
+.sketch {
+	width: 60%;
+	right: 10%;
+	position: relative;
 }
