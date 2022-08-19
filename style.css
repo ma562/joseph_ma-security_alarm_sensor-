@@ -162,17 +162,25 @@
 	}
 }
 
-@media (max-width: 700px){
+@media (max-width: 750px) {
 	.top_info {
 		top: 80px;
 	}
+
 	.navbar .logo a{
 		color: #fff;
-		font-size: 20px;
+		font-size: 12px;
 		font-weight: 600;
 	}
 	.navbar .menu li a{
-		font-size: 12px;
+		font-size: 9px;
+
+	}
+}
+
+@media (max-width: 700px){
+	.top_info {
+		top: 80px;
 	}
 	.text {
 		font-size: 18px;
